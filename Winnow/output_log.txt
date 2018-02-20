@@ -1,0 +1,58 @@
+Date and time: 2017-07-10 09:2739
+
+Data file path: output_input.txt
+
+Output file path: output
+
+Prediction file path: output_predict.txt
+
+Seed: 1499693259
+
+Number of sweeps: 1000
+Burn in sweeps: 1000
+Output filter: 1
+Proposal Type: gibbsForVActive, Acceptance Rate: 1
+Proposal Type: updateForPhiActive, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForThetaActive, Acceptance Rate: 0.415619
+Proposal Type: metropolisHastingsForBeta, Acceptance Rate: 0.40625
+Proposal Type: metropolisHastingsForLabels123, Acceptance Rate: 0.5205
+Proposal Type: gibbsForU, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForAlpha, Acceptance Rate: 0.424
+Proposal Type: gibbsForVInActive, Acceptance Rate: 1
+Proposal Type: gibbsForPhiInActive, Acceptance Rate: 1
+Proposal Type: gibbsForThetaInActive, Acceptance Rate: 1
+Proposal Type: gibbsForZ, Acceptance Rate: 1
+Number of subjects: 1000
+Number of prediction subjects: 2
+Prediction type: RaoBlackwell
+Sampler type: SliceDependent
+Number of initial clusters: 50 (Random, Unif[50,60])
+Covariates: 
+	Variable1 (categorical)
+	Variable2 (categorical)
+	Variable3 (categorical)
+	Variable4 (categorical)
+	Variable5 (categorical)
+FixedEffects: 
+	FixedEffects1
+	FixedEffects2
+Model for Y: Bernoulli
+Extra Y variance: False
+Include response: True
+Update alpha: True
+Compute allocation entropy: False
+Model for X: Discrete
+Variable selection: None
+
+Hyperparameters:
+shapeAlpha: 2
+rateAlpha: 1
+aPhi[j]: 1 1 1 1 1 
+muTheta: 0
+sigmaTheta: 2.5
+dofTheta: 7
+muBeta: 0
+sigmaBeta: 2.5
+dofBeta: 7
+
+2000 sweeps done in 23 seconds
